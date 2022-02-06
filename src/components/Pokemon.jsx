@@ -28,7 +28,7 @@ const Pokemon = (props) => {
   const { urlOne } = props;
 
   const [onePokemon, setOnePokemon] = useState({});
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
