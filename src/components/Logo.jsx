@@ -7,7 +7,7 @@ function Logo() {
     // const titleImage= './pokemon-logo.png'
 
     return (
-        <div className='center'>
+        <div className='center bg-red'>
             <img src={poke} />
         </div>
     )
